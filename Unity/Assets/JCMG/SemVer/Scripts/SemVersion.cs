@@ -24,7 +24,6 @@ SOFTWARE.
 using System;
 using System.Globalization;
 using System.Runtime.Serialization;
-using System.Security.Permissions;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -316,7 +315,7 @@ namespace JCMG.SemVer
 		/// </summary>
 		public override string ToString()
 		{
-			_versionStringBuilder.Clear();
+			_versionStringBuilder.Length = 0;
 			_versionStringBuilder.Append(string.Format(
 				RuntimeConstants.SimpleVersionFormat,
 				_major,
@@ -548,7 +547,6 @@ namespace JCMG.SemVer
 		/// <param name="context"></param>
 		/// <exception cref="ArgumentNullException">When <see cref="SerializationInfo"/> <paramref name="info"/>
 		/// is null.</exception>
-		[SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
 		public void GetObjectData(SerializationInfo info, StreamingContext context)
 		{
 			Assert.IsNotNull(info);
