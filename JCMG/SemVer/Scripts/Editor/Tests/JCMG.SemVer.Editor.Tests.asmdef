@@ -1,0 +1,14 @@
+{
+    "name": "JCMG.SemVer.Editor.Tests",
+    "references": [
+        "JCMG.SemVer"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
