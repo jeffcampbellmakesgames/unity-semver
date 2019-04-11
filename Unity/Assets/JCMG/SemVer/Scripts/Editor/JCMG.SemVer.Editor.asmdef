@@ -1,0 +1,12 @@
+{
+    "name": "JCMG.SemVer.Editor",
+    "references": [
+        "JCMG.SemVer"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
