@@ -13,7 +13,7 @@ Using this library in your project can be done in two ways:
 {
 	"dependencies": {
 		...
-		"JCMG.SemVer" : "https://github.com/jeffcampbellmakesgames/unity-semver.git#release/stable"
+		"com.jeffcampbellmakesgames.semver" : "https://github.com/jeffcampbellmakesgames/unity-semver.git#release/stable"
 		...
 	}
 }
