@@ -6,7 +6,7 @@ JCMG.SemVer adds a 2.0.0 SemVer implementation (see [here](https://semver.org/sp
 
 ## Using JCMG.SemVer
 Using this library in your project can be done in two ways:
-* **Releases:** The latest release can be found [here]() as a UnityPackage file that can be downloaded and imported directly into your project's Assets folder.
+* **Releases:** The latest release can be found [here](https://github.com/jeffcampbellmakesgames/unity-semver/releases) as a UnityPackage file that can be downloaded and imported directly into your project's Assets folder.
 * **Package:** Using the native Unity Package Manager introduced in 2017.2, you can add this library as a package by modifying your `manifest.json` file found at `/ProjectName/Packages/manifest.json` to include it as a dependency. See the example below on how to reference it.
 
 ```
