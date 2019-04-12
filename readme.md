@@ -19,6 +19,9 @@ Using this library in your project can be done in two ways:
 }
 ```
 
+## Contributors
+If you are interested in contributing, found a bug, or want to request a new feature, please see [here](./contributors.md).
+
 ## License
 MIT License
 
